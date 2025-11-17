@@ -16,19 +16,25 @@ int main()
     cin>> soma;
     
     switch (soma) {
+        
     case 1: cout<<"subtração: ";
-    cout<< primeiro - segundo;
+        cout<< primeiro - segundo;
     break;
+        
     case 2: cout<<"multiplicação: ";
-    cout<< primeiro * segundo;
+        cout<< primeiro * segundo;
     break;
+        
     case 3: cout<<"divisão: ";
-    cout<< primeiro / segundo;
+        cout<< primeiro / segundo;
     break;
+        
     case 4: cout<<"Adição: ";
-    cout<< primeiro + segundo;
+        cout<< primeiro + segundo;
     break;
+        
     default: cout << "invalido: ";
     }
+    
     return 0;
 }
